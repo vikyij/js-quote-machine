@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: black;
+    margin:0px;
+    padding: 2em
+  }
+  
+  .box {
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 35em;
+    background-color: white;
+    border-radius: 2px;  
+  }
+
+  .main {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      padding: 0.5em;
+      text-align: center;
+  }
+  h2 {
+    margin: 0px;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .btn {
+    padding: 0.8em;
+    color: white;
+    align-items: right;
+    border-radius: 3px;
+    border:0;
+    float: right;
+    clear: right;
+    margin: 0.7em 4em;
+  }
+ 
+  .author {
+    float:right;
+    clear: right;
+    font-size: 1em;
+    margin-right: 1em;
+  }
+
+  .socials {
+    padding: 0.8em;
+    color: white;
+    border-radius: 3px;
+    border:0;
+  }
+  .btn-container {
+    margin-left: 2em;
+    margin-bottom: 0;
+  }
+  .fa {
+    text-decoration: none;
+    color: white;
+  }
+  #openquote {
+    color: black;
+    font-size: 1.5em;
+  }
+  
